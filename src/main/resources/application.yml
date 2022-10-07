@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 2fc2848b7e5a00d9560f
+            client-secret: 0e75e2a3a1b303488350dfbb2cee6a434c8432b7
+            scope: [user:follow, user:email] #it is a set
+#          facebook:
+#            client-id: example with another oauth2.0
+
+logging:
+  level:
+    org.springframework.security: DEBUG
